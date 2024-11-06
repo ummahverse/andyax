@@ -1,0 +1,46 @@
+.image-icon {
+    margin-top: 0.425rem;
+}
+
+.yapping-post {
+    padding-bottom: 1.25rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+}
+
+.clicked-image{
+    max-width: 70%;
+    max-height: 500px;
+}
+
+.max-image-popup {
+    max-height: 80vh;
+}
+
+.comment-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.comment-content {
+    font-size: 12px;
+}
+
+.like-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.location-icon {
+    font-size: 19px;
+}
+
+.like-content, .date-content {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    .reaction {
+        font-size: 8px;
+
+    }
+}

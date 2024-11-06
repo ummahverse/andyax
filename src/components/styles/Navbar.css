@@ -1,0 +1,49 @@
+.custom-icon {
+    stroke: currentColor; /* Use current text color */
+    stroke-width: 50px;
+  }
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+}
+
+.navbar a:hover {
+  background-color: #7fbee9;
+}
+
+.navbar a:active {
+  color: rgb(22, 22, 22);
+  font-weight: 900;
+
+}
+
+.navbar a:focus {
+  color: rgb(22, 22, 22);
+  font-weight: 900;
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .navbar a {
+    width: 3.125rem;
+  }
+
+  .navbar a:hover {
+    background-color: #7fbfe900;
+  }
+
+  .navbar {
+    display: flex;
+    position: fixed;
+    bottom: 0; /* Menempatkan navbar di bagian bawah layar */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Memastikan navbar berada di atas elemen lain */
+    padding: 0 !important;
+    border: 0 !important;
+  }
+}
+
+  

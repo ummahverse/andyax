@@ -1,0 +1,161 @@
+.profile-card {
+    min-height: 170px;
+}
+
+.menu-profile {
+    font-size: 14px;
+}
+
+.option {
+    cursor: pointer;
+   color: rgb(68, 68, 68);
+}
+
+
+.option:hover {
+    color: rgb(190, 190, 190);
+ }
+ 
+ .custom-edit-avatar-button {
+    /* border-radius:  100% ; */
+    background-color: rgba(32, 32, 32, 0.384);
+    position: absolute;
+    color: rgba(252, 252, 252, 0.945); /* Warna teks */
+    -webkit-text-stroke: 1px white; /* Stroke putih dengan ketebalan 1px */
+    bottom: 0px;  /* Geser ke bawah */
+    right: 0px;   /* Geser ke kanan */
+    /* background-color: transparent; */
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-edit-avatar-button:hover {
+    background-color: rgba(97, 97, 97, 0.384);
+}
+
+.menu-buttons {
+    width: 100%;
+    font-size: 11px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.menu-buttons > button {
+    min-width: 70px;
+}
+
+
+/* Add these styles to your ProfileCard.css */
+.skeleton {
+    background-color: #424141;
+    border-radius: 4px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .skeleton-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+  }
+  
+  .skeleton-text {
+    width: 100%;
+    height: 16px;
+    margin-top: 8px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #f5f5f5;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
+  
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    .photo-profile {
+        width: 70px;
+        height: auto;
+    }
+
+    .name {
+        font-size: 13px;
+    }
+
+    .username {
+        font-size: 13px;
+    }
+
+    .bio {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .joined-on {
+        font-size: 13px;
+    }
+
+    .menu-card {
+        display:flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .menu-buttons {
+        width: 100%;
+        font-size: 11px;
+        display:flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .menu-buttons button {
+        width: 100%;
+    }
+
+    .menu-profile {
+        display: inline-block;
+        width: 100%;
+        font-size: 13px;
+        margin: 2;
+        padding: 2;
+    }
+}
+
+@media only screen and (max-width: 1328px) and (orientation: landscape) {
+    .menu-card {
+        display:flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .menu-buttons {
+        font-size: 13px;
+        display:flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .menu-buttons button {
+        width: 100%;
+    }
+
+    .menu-buttons a {
+        width: 100%;
+    }
+
+    .menu-profile {
+        display: inline-block;
+        width: 100%;
+        font-size: 13px;
+        margin: 2;
+        padding: 2;
+    }
+}
